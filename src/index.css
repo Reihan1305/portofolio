@@ -1,0 +1,23 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
+.scrollbar-hide::-webkit-scrollbar {
+    display: none; /* Safari and Chrome */
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  .active-link {
+    background-color: #ffc107; /* Yellow background */
+    color: #000; /* Black text */
+  }
