@@ -1,4 +1,4 @@
-import React from "react";
+
 import { SiNestjs } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
