@@ -1,10 +1,10 @@
-import React from "react";
 import { Carousel } from "@material-tailwind/react";
 import TheJourney from "../card/TheJourney";
 import Waysbeans from "../card/Waysbeans";
 import CircleCard from "../card/Circle";
 
 export default function Services() {
+
   return (
     <div className="bg-amber-400 h-screen mt-32 sm:mt-0 px-2 sm:px-16">
       <section id="Services">
@@ -23,8 +23,13 @@ export default function Services() {
               </span>
             </div>
           </div>
-          <Carousel className="rounded-xl" transition={{ duration: 2 }}>
-            <div className=" sm:px-20 sm:py-5">
+          <Carousel
+            placeholder="Carousel"
+            onPointerEnterCapture={() => {}}
+            onPointerLeaveCapture={() => {}}
+            className="rounded-xl"
+          >
+             <div className=" sm:px-20 sm:py-5">
               <CircleCard />
             </div>
             <div className=" sm:px-20 sm:py-5">

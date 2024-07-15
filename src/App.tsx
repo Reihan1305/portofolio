@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "./Component/Navbar";
 import Home from "./Component/page/Home";
 import InstagramIcon from "./Component/icons/Instagram";
@@ -8,7 +7,6 @@ import GithubIcon from "./Component/icons/Github";
 import About from "./Component/page/About";
 import Services from "./Component/page/Services";
 import { FaLocationDot } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa";
 
 import ContactMe from "./Component/page/ContactMe";
 
